@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import {  useState } from 'react'
 import { Message } from './Message';
 
 export const SimpleForm = () => {
@@ -17,34 +17,6 @@ export const SimpleForm = () => {
             [ name ]: value
         });
     }
-
-    // useEffect(() => {
-    //     console.log('primer useEffect');
-    // }, [])
-
-    // useEffect(() => {
-    //     console.log('useEfect form change');
-    // }, [formState])
-
-    // useEffect(() => {
-    //     console.log('useEfect name change');
-    // }, [username])
-
-    // useEffect(() => {
-    //     console.log('useEfect email change');
-    // }, [email])
-
-    // useEffect(() => {
-    //   first
-    
-    //   return () => {
-    //     second
-    //   }
-    // }, [third])
-    
-    
-
-
 
   return (
     <>
